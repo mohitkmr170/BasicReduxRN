@@ -16,7 +16,6 @@ const deletePlace = (action, state) => {
 };
 
 const placeReducer = (state = initialState, action) => {
-  console.log('Store', state, action);
   switch (action.type) {
     case ADD_PLACES:
       return {

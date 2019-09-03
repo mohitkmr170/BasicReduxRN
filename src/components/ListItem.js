@@ -10,7 +10,6 @@ class ListItem extends React.Component {
   }
 
   handleDeletePress = key => {
-    console.log('asdasd', key);
     let index = this.props.places.indexOf(
       this.props.places.find(x => x.key === key),
     );
@@ -34,7 +33,6 @@ class ListItem extends React.Component {
   };
 
   render() {
-    console.log('asjdbas', this.props.places);
     return (
       <View style={{flex: 1}}>
         {this.props.places &&

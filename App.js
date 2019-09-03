@@ -36,7 +36,6 @@ class App extends React.Component {
   };
 
   render() {
-    console.log('asiudasd', this.props.places);
     return (
       <View style={styles.mainContainer}>
         <StatusBar barStyle="dark-content" />
